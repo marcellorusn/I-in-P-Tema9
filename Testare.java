@@ -1,6 +1,6 @@
 public class Testare {
     public static void main(String[] args) {
-        Joc joc1 = new Joc("Shakhtar Donetsk", "Dynamo Kyiv");
+        Joc joc1 = new Joc("Shakhtar Donetsk", "Dynamo Kyiv");//nu imi afiseaza asta dintr-o data dispare
         joc1.simuleaza(); 
         System.out.println("    Prima Simulare    ");
         System.out.println(joc1);
